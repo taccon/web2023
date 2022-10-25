@@ -1,0 +1,66 @@
+@use 'webfonts/fonts'
+
+$color-anthracite: #090909
+$color-yellow: #D5D679
+$color-green: #79D684
+$color-blue: #5395D7
+$color-red: #D75353
+
+html
+    font-size: 10px
+
+body
+    font-family: 'sansationregular'
+    background-color: $color-anthracite
+    font-size: 2.4rem
+    margin: 0
+    padding: 0
+
+h1,h2,h3
+    font-weight: normal
+    font-size: 4.4rem
+
+strong
+    font-weight: normal
+    font-family: 'sansationbold'
+
+.section
+    &.hero
+        background-image: url(../images/herobg.svg)
+        background-repeat: no-repeat
+        background-position: top left
+        padding-top: 250px
+        padding-bottom: 60px
+        color: $color-red
+        .text
+            background-color: $color-anthracite
+            max-width: 945px
+            margin: 0 auto
+            padding: 10px 30px
+    &.cetup
+        font-family:'Inter var', sans-serif
+        background-color: #E7F0FF
+        color: #2C559A
+        padding: 100px 0
+        .contents
+            max-width: 945px
+            margin: 0 auto
+            padding: 10px 30px
+            p
+                margin-bottom: 8rem
+            a
+                color: #2C559A
+            .cetup-screenshot
+                height: 70vw
+                max-height: 69.5rem
+                background-image: url(../images/cetup_scr.png)
+                background-size: contain
+                background-repeat: no-repeat
+                background-position: center
+                margin-bottom: 8rem
+            .cetup-logo
+                height: 20rem
+                background-image: url(../images/cetup.svg)
+                background-size: contain
+                background-repeat: no-repeat
+                margin-bottom: 8rem

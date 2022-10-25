@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'sansationregular';
+    src: url('webfonts/Sansation-Regular-webfont.eot');
+    src: url('webfonts/Sansation-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-Regular-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-Regular-webfont.woff') format('woff'),
+         url('webfonts/Sansation-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-Regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationbold';
+    src: url('webfonts/Sansation-Bold-webfont.eot');
+    src: url('webfonts/Sansation-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-Bold-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-Bold-webfont.woff') format('woff'),
+         url('webfonts/Sansation-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-Bold-webfont.svg#sansationbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationbold_italic';
+    src: url('webfonts/Sansation-BoldItalic-webfont.eot');
+    src: url('webfonts/Sansation-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-BoldItalic-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-BoldItalic-webfont.woff') format('woff'),
+         url('webfonts/Sansation-BoldItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-BoldItalic-webfont.svg#sansationbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationitalic';
+    src: url('webfonts/Sansation-Italic-webfont.eot');
+    src: url('webfonts/Sansation-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-Italic-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-Italic-webfont.woff') format('woff'),
+         url('webfonts/Sansation-Italic-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-Italic-webfont.svg#sansationitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansation_lightlight';
+    src: url('webfonts/Sansation-Light-webfont.eot');
+    src: url('webfonts/Sansation-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-Light-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-Light-webfont.woff') format('woff'),
+         url('webfonts/Sansation-Light-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-Light-webfont.svg#sansation_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansation_lightlight_italic';
+    src: url('webfonts/Sansation-LightItalic-webfont.eot');
+    src: url('webfonts/Sansation-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Sansation-LightItalic-webfont.woff2') format('woff2'),
+         url('webfonts/Sansation-LightItalic-webfont.woff') format('woff'),
+         url('webfonts/Sansation-LightItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Sansation-LightItalic-webfont.svg#sansation_lightlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://rsms.me/inter/inter.css);
