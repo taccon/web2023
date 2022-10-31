@@ -10,7 +10,7 @@ html
     font-size: 10px
 
 body
-    font-family: 'sansationregular'
+    font-family: 'sansationitalic'
     background-color: $color-anthracite
     font-size: 2.4rem
     margin: 0
@@ -22,16 +22,16 @@ h1,h2,h3
 
 strong
     font-weight: normal
-    font-family: 'sansationbold'
+    font-family: 'sansationbold_italic'
 
 .section
     &.hero
         background-image: url(../images/herobg.svg)
         background-repeat: no-repeat
-        background-position: top left
         padding-top: 250px
         padding-bottom: 60px
         color: $color-red
+        background-position: top left
         .text
             background-color: $color-anthracite
             max-width: 945px
@@ -65,3 +65,28 @@ strong
                 background-size: contain
                 background-repeat: no-repeat
                 margin-bottom: 8rem
+    &.audioplayer
+        font-family: 'Roboto', sans-serif
+        background-color: #222222
+        color: #4A90E2
+        font-size: 1.6rem
+        line-height: 1.5
+        .ap-logo
+            height: 2.2rem
+            background-image: url(../images/audioplayer.svg)
+            background-size: contain
+            background-repeat: no-repeat
+            margin: 10rem 0 5rem 0
+        .ap-paragraph
+            @media screen and (min-width:40em)
+                display: flex
+                gap: 2rem
+        .contents
+            max-width: 945px
+            margin: 0 auto
+            padding: 10px 30px
+        h2
+            font-size: 2.2rem
+            color: #FDEC1D
+        a
+            color: #4A90E2
